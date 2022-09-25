@@ -1,0 +1,127 @@
+a {
+    text-decoration: none;
+}
+
+.wd-tuiter-background {
+    background-color: black;
+    padding-left: 16px;
+    margin-top: 0;
+}
+
+.wd-tuiter-search-box-c {
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    width: 582px;
+}
+
+.wd-tuiter-search-box {
+    position: relative;
+    border-right: 1px solid rgb(47, 51, 54);
+    border-left: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+    width: 582px;
+}
+
+.wd-tuiter-search-box .icon {
+    position: absolute;
+    left: 28px;
+    top: 15px;
+    color: white;
+    background-color: darkgray;
+}
+
+.wd-tuiter-search-bar {
+    padding-left: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 30px;
+    border-color: black;
+    left: 20px;
+    height: 30px;
+    width: 460px;
+    color: white;
+    background-color: darkgrey;
+}
+
+::placeholder {
+    color: white;
+}
+
+.wd-tuiter-search-gear {
+    float: right;
+    color: rgb(29, 161, 242);
+    padding-top: 15px;
+    padding-right: 12px;
+}
+
+.wd-tuiter-hyperlink-highlight {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(29, 161, 242);
+    border-bottom: 5px solid rgb(29, 161, 242);
+}
+
+.wd-tuiter-hyperlink-regular {
+    display: inline-block;
+    padding: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(110, 118, 125);
+}
+
+.wd-tuiter-whiteText {
+    color: white;
+}
+
+.wd-tuiter-search-box-c .dots {
+    float: right;
+    color: darkgray;
+    padding-top: 15px;
+    padding-right: 12px;
+}
+
+.wd-tuiter-search-box .dot1 {
+    float: right;
+    color: darkgray;
+    padding-top: 12px;
+    padding-right: 12px;
+}
+
+.wd-tuiter-suggest-text {
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    border-top: 1px solid rgb(47, 51, 54);
+}
+
+.wd-tuiter-suggest-text1 {
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-tuiter-roundPic {
+    border-radius: 15px;
+    float: right;
+    margin-right: 16px;
+}
+
+.wd-tuiter-pic-overflow {
+    overflow: auto;
+}
+
+.wd-tuiter-block-de {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
