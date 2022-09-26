@@ -324,32 +324,32 @@ p#id-selector-2 {
 .gradients-linear {
     background: linear-gradient(yellow, red);
     width: 14%;
-    height: 200px
+    height: 200%;
 }
 
 .gradients-linear-1 {
     background: linear-gradient(pink, purple);
     width: 20%;
-    height: 160px;
+    height: 160%;
 }
 
 .gradients-radial {
     background: radial-gradient(yellow, green);
     width: 14%;
-    height: 200px;
+    height: 200%;
 }
 
 .gradients-radial-1 {
     background: radial-gradient(orangered, white);
     width: 35%;
-    height: 80px;
+    height: 80%;
 }
 
 .gradients-positioned {
     background: radial-gradient(
             at top left, blue, red);
     width: 15%;
-    height: 200px;
+    height: 200%;
     color: white;
 }
 
@@ -357,7 +357,7 @@ p#id-selector-2 {
     background: radial-gradient(
             at bottom right, gray, peru);
     width: 20%;
-    height: 170px;
+    height: 170%;
     color: darkblue;
 }
 
@@ -367,7 +367,7 @@ p#id-selector-2 {
     animation-duration: 7s;
     animation-name: slidein;
     width: 15%;
-    height: 200px;
+    height: 200%;
     background-color: red;
     color: white;
 }
@@ -378,7 +378,7 @@ p#id-selector-2 {
     animation-duration: 5s;
     animation-name: slidein-1;
     width: 20%;
-    height: 150px;
+    height: 150%;
     background-color: yellowgreen;
     color: whitesmoke;
 }
