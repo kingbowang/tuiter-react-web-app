@@ -323,7 +323,7 @@ p#id-selector-2 {
 
 .gradients-linear {
     background: linear-gradient(yellow, red);
-    width: 14%;
+    width: 20%;
     height: 200%;
 }
 
@@ -335,7 +335,7 @@ p#id-selector-2 {
 
 .gradients-radial {
     background: radial-gradient(yellow, green);
-    width: 14%;
+    width: 25%;
     height: 200%;
 }
 
@@ -348,7 +348,7 @@ p#id-selector-2 {
 .gradients-positioned {
     background: radial-gradient(
             at top left, blue, red);
-    width: 15%;
+    width: 20%;
     height: 200%;
     color: white;
 }
@@ -366,7 +366,7 @@ p#id-selector-2 {
     top: 0;
     animation-duration: 7s;
     animation-name: slidein;
-    width: 15%;
+    width: 20%;
     height: 200%;
     background-color: red;
     color: white;
