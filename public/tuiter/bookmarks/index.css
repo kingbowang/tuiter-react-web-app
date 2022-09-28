@@ -66,14 +66,14 @@ a {
 .wd-title-bookmarks {
     color: white;
     font-size: 20px;
-    font-family: Arial;
+    font-family: Arial, serif;
     font-weight: bold;
 }
 
 .wd-handle-bookmarks {
     color: lightgray;
     font-size: 13px;
-    font-family: Arial;
+    font-family: Arial, serif;
 }
 
 .wd-avatar-bookmark {
@@ -90,7 +90,7 @@ a {
     padding-right: 16px;
     color: lightgray;
     font-size: 15px;
-    font-family: Arial;
+    font-family: Arial, serif;
 }
 
 .wd-box-border-image-bookmark {
@@ -105,19 +105,14 @@ a {
 .wd-author-name-white-bookmark {
     color: white;
     font-weight: bold;
-    font-family: Arial;
+    font-family: Arial, serif;
 }
 
 .wd-text-white-bookmark {
     position: relative;
-    top: 4px;
     color: white;
     font-size: 15px;
-    font-family: Arial;
-}
-
-.wd-margin-top-bookmark {
-    margin-top: 12px;
+    font-family: Arial, serif;
 }
 
 .wd-rounded-bookmark {
@@ -131,6 +126,13 @@ a {
 }
 
 .wd-padding-bookmark {
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.wd-padding-bookmark-gray {
     display: inline-block;
     margin: 12px;
 }
