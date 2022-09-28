@@ -5,7 +5,7 @@ a {
 .wd-page-bookmarks-background {
     background-color: black;
     padding-left: 4px;
-    margin-top: 0;
+    margin-top: 1px;
 }
 
 .wd-box-border-bookmark {
@@ -110,14 +110,14 @@ a {
 
 .wd-text-white-bookmark {
     position: relative;
-    top: 12px;
+    top: 4px;
     color: white;
     font-size: 15px;
     font-family: Arial;
 }
 
 .wd-margin-top-bookmark {
-    margin-top: 12px
+    margin-top: 12px;
 }
 
 .wd-rounded-bookmark {
@@ -161,8 +161,7 @@ a {
     flex: auto;
     display: flex;
     justify-content: space-around;
-    padding: 8px;
-    padding-top: 12px;
+    padding: 12px 8px 8px;
 }
 
 .wd-padding-left-bookmark {

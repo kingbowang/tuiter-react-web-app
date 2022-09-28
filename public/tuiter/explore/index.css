@@ -5,7 +5,7 @@ a {
 .wd-tuiter-background {
     background-color: black;
     padding-left: 16px;
-    margin-top: 0;
+    margin-top: 1px;
 }
 
 .wd-tuiter-search-box-c {
@@ -18,6 +18,7 @@ a {
 
 .wd-tuiter-search-box {
     position: relative;
+    border-top: 1px solid rgb(47, 51, 54);
     border-right: 1px solid rgb(47, 51, 54);
     border-left: 1px solid rgb(47, 51, 54);
     border-bottom: 1px solid rgb(47, 51, 54);
@@ -81,7 +82,7 @@ a {
 .wd-tuiter-search-box-c .dots {
     float: right;
     color: darkgray;
-    padding-top: 15px;
+    padding-top: 22px;
     padding-right: 12px;
 }
 
