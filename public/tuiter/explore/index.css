@@ -8,12 +8,10 @@ a {
     margin-top: 5px;
 }
 
-.wd-tuiter-search-box-c {
+.wd-tuiter-gray-box {
     position: relative;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(47, 51, 54);
-    width: 561px;
+    width: 563px;
+    border-bottom: 7px solid rgb(47, 51, 54);
 }
 
 .wd-tuiter-search-box {
@@ -78,29 +76,14 @@ a {
     color: white;
 }
 
-.wd-tuiter-search-box-c .dots {
+.wd-tuiter-search-box .dot {
     float: right;
     color: darkgray;
-    padding-top: 22px;
-    padding-right: 16px;
-}
-
-.wd-tuiter-search-box .dot1 {
-    float: right;
-    color: darkgray;
-    padding-top: 12px;
+    padding-top: 10px;
     padding-right: 16px;
 }
 
 .wd-tuiter-suggest-text {
-    padding: 10px 10px 10px 16px;
-    margin-top: 10px;
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-    border-top: 1px solid rgb(47, 51, 54);
-}
-
-.wd-tuiter-suggest-text1 {
     padding: 10px 10px 10px 16px;
     font-size: 13px;
     color: rgb(110, 118, 125);
