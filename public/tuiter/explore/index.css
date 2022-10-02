@@ -28,7 +28,7 @@ a {
     left: 30px;
     top: 15px;
     color: white;
-    background-color: darkgray;
+    background-color: rgb(47, 51, 54);
 }
 
 .wd-tuiter-search-bar {
@@ -41,7 +41,7 @@ a {
     height: 30px;
     width: 435px;
     color: white;
-    background-color: darkgrey;
+    background-color: rgb(47, 51, 54);
 }
 
 ::placeholder {
