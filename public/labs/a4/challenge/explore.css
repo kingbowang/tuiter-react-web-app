@@ -1,0 +1,143 @@
+.wd-tweet-btn {
+    width: 100%;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: rgb(29, 161, 242);
+    border-color: rgb(29, 161, 242)
+}
+
+.wd-icon-search {
+    position: relative;
+    margin-left: -15px;
+    left: 35px;
+}
+
+.wd-input-search-bar {
+    color: white;
+    border-radius: 20px;
+    margin-right: 15px;
+    padding: 5px 5px 5px 55px;
+    background-color: rgb(22, 24, 28);
+    border: 1px rgb(22, 24, 28);
+}
+
+.wd-card-img-top {
+    padding: 0;
+}
+
+.wd-card-border-radius {
+    border-radius: 0;
+}
+
+.wd-card-border-color {
+    border: black;
+    border-left: 1px solid rgb(22, 24, 28);
+    border-right: 1px solid rgb(22, 24, 28);
+    border-bottom: 1px solid rgb(22, 24, 28);
+}
+
+.wd-box-border-col1 {
+    background-color: black;
+    border-left: 1px solid rgb(22, 24, 28);
+    border-right: 1px solid rgb(22, 24, 28);
+}
+
+::placeholder {
+    font-weight: 400;
+    color: rgb(98, 106, 113);
+}
+
+.wd-background-black {
+    background: black;
+}
+
+.wd-text-lightgray {
+    color: lightgray;
+}
+
+.wd-text-white {
+    color: white;
+}
+
+.wd-text-white1 {
+    color: white;
+    font-size: 19px;
+}
+
+.wd-text-gray {
+    color: gray;
+}
+
+.wd-img-col {
+    border-radius: 10px;
+}
+
+.wd-border-lr {
+    border-left: 1px solid rgb(22, 24, 28);
+    border-right: 1px solid rgb(22, 24, 28);
+}
+
+.wd-border-lrb {
+    border-left: 1px solid rgb(22, 24, 28);
+    border-right: 1px solid rgb(22, 24, 28);
+    border-bottom: 1px solid rgb(22, 24, 28);
+}
+
+.wd-highlight {
+    border-bottom: 4px solid rgb(29, 161, 242);
+}
+
+.wd-list-border {
+    border-radius: 20px;
+}
+
+.wd-list-background-border {
+    background-color: rgb(22, 24, 28);
+    border-bottom: rgb(22, 24, 28);
+}
+
+.wd-col-font-size {
+    font-size: 14px;
+}
+
+.wd-text-color1 {
+    color: rgb(98, 106, 113);
+}
+
+.wd-text-padding {
+    padding-right: 22px;
+    padding-left: 22px;
+    color: rgb(98, 106, 113);
+}
+
+.wd-img-caption {
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    left: 15px;
+    font-size: 25px;
+}
+
+.wd-img-caption-small {
+    color: white;
+    position: absolute;
+    bottom: 90px;
+    left: 15px;
+    font-size: 15px;
+}
+
+.wd-times-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.wd-flag-icon {
+    height: 15px;
+    width: 18px;
+    padding-bottom: 3px;
+}
+
+.wd-float-right {
+    float: right;
+    position: relative;
+}

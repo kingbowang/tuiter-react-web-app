@@ -1,7 +1,7 @@
 .wd-tweet-btn {
     width: 100%;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .wd-icon-search {
@@ -43,10 +43,15 @@
     color: gray;
 }
 
-.wd-img-col2 {
+.wd-img-col1 {
     border-radius: 10px
 }
 
-.wd-text-col3 {
+.wd-text-col {
     font-size: 14px;
+}
+
+.wd-nav-padding {
+    padding-right: 21px;
+    padding-left: 21px;
 }
