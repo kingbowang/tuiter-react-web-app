@@ -281,3 +281,6 @@ fond-size-14 {
     height: 60%;
 }
 
+.wd-border-round {
+    border-radius: 10px;
+}

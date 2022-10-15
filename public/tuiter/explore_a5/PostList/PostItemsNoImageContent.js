@@ -33,10 +33,10 @@ const PostItemsNoImageContent = (post) => {
                         </div>
                         
                         <div class = "text-padding-top-20 col-10 col-lg-10 col-xl-10 col-xxl-10">
-                            <div class = "general-border round-image">
+                            <div class = "general-border wd-border-round">
                                 <div>
                                     <div class="card">
-                                        <img src= ${post.image} class="card-img-top round-image" alt="...">
+                                        <img src= ${post.image} class="card-img-top wd-border-round" alt="...">
                                     </div>
                                     
                                 </div>
@@ -62,10 +62,10 @@ const PostItemsNoImageContent = (post) => {
                             </div>
                              <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
                                 <i class="fas fa-upload"></i>
-                            </div>  
+                            </div>
                         </div>
                 </div>
-            </div> 
+            </div>
  `);
 }
 export default PostItemsNoImageContent
