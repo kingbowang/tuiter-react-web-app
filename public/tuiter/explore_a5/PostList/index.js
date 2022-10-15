@@ -1,14 +1,17 @@
 import PostItem from "./PostItem.js";
 import posts from "./posts.js";
+import PostItemsNoImageContent from "./PostItemsNoImageContent.js";
 
-const PostList = (post) => {
-    return `<ul class="list-group">
-          ${posts
-        .map((elem) => {
-            return PostItem(elem);
-        })
-        .join("")}
-        </ul>`;
-};
-
+const PostList = () => {
+    return (`
+        ${
+        posts.map(post => {
+            if (post.shared_content === "") {
+                return (PostItemsNoImageContent(post));
+            }
+            return (PostItem(post));
+        }).join('')
+    }
+    `);
+}
 export default PostList;

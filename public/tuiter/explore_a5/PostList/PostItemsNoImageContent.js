@@ -1,8 +1,4 @@
-const PostItem = (post) => {
-    if (post.shared_title === "") {
-        $("#shared_image_content").hide();
-    }
-
+const PostItemsNoImageContent = (post) => {
     return (`
             <div class = "topic-card-padding general-border">
                 <div class="row">
@@ -29,9 +25,7 @@ const PostItem = (post) => {
                                  <span class = "color-deepskyblue">${post.link_content}</span>
                                  <span>${post.content_after_link}</span>
                             </div>
-
                         </div>
- 
                 </div>
                 
                 <div class="row">
@@ -45,28 +39,15 @@ const PostItem = (post) => {
                                         <img src= ${post.image} class="card-img-top round-image" alt="...">
                                     </div>
                                     
-                                    <div id="shared_image_content">
-                                        
-                                        <div class="mt-0 mb-1 padding-all-15">
-                                            <span class = "color-fg-white">${post.shared_title}
-                                            </span>
-                                        </div>
-
-                                        <div class = "text-padding-top padding-all-15-3">
-                                            ${post.shared_content}
-                                        </div>
-
-                                        <div class = "text-padding-top padding-all-15-3">
-                                            <i class="fa fa-link fa-1x"></i>
-                                            ${post.shared_link}
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="row text-padding-top-20 ">
+                        
                              <div class = "col-2 col-lg-2 col-xl-2 col-xxl-2">
                              </div>
+                             
                              <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                                 <i class="fas fa-comment"></i>
                                 <span class = "padding-left-10">${post.comments}</span>
@@ -81,11 +62,10 @@ const PostItem = (post) => {
                             </div>
                              <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
                                 <i class="fas fa-upload"></i>
-                            </div>
-                        </div> 
-                </div>             
-            </div>             
+                            </div>  
+                        </div>
+                </div>
+            </div> 
  `);
-};
-
-export default PostItem;
+}
+export default PostItemsNoImageContent
