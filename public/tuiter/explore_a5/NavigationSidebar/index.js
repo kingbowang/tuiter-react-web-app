@@ -6,9 +6,8 @@ const NavigationSidebar = (active) => {
                 d-flex align-items-center" href="../HomeScreen/index.html">
                     <i class="fa fa-home pe-2"></i>
                     <span class="d-none d-xl-block">Home</span></a>
-                    
                     <a class="list-group-item ${active === 'explore' ? 'active' : ''} list-group-item-action
-                d-flex align-items-center" href="../ExploreScreen/explore.html">
+                d-flex align-items-center" href="../ExploreScreen/index.html">
                     <i class="fa fa-hashtag pe-2"></i>
                     <span class="d-none d-xl-block">Explore</span></a>
                 <a class="list-group-item list-group-item-action
