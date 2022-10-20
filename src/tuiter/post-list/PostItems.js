@@ -7,7 +7,7 @@ const PostItems = ({post = {}}) => {
             </div>
             <div className="row">
                 <div className="col-2 col-lg-2 col-xl-2 col-xxl-2">
-                    <img className="ms-2 user-image" src={post.userPhoto}/>
+                    <img className="ms-3 user-image" src={post.userPhoto}/>
                 </div>
                 <div className="col-10 col-lg-10 col-xl-10 col-xxl-10">
                     <div className="fond-size-16">
