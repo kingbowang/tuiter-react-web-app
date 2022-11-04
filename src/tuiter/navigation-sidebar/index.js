@@ -93,7 +93,7 @@ const NavigationSidebar = () => {
                     </div>
                 </div>
             </a>
-            <a className={`list-group-item
+            <Link to="/tuiter/profile" className={`list-group-item
                     ${active === 'profile' ? 'active' : ''}`}>
                 <div className="row">
                     <div className="col-2">
@@ -103,7 +103,7 @@ const NavigationSidebar = () => {
                         <span>Profile</span>
                     </div>
                 </div>
-            </a>
+            </Link>
             <a className={`list-group-item
                     ${active === 'more' ? 'active' : ''}`}>
                 <div className="row">
