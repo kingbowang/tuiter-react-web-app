@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import {useSelector} from "react-redux";
 
 
-const Profile = () => {
+const ProfileComponent = () => {
     const profile = useSelector(state => state.profile)
     return (
         <div className="ttr-profile">
@@ -67,4 +67,4 @@ const Profile = () => {
     );
 
 }
-export default Profile;
+export default ProfileComponent;
