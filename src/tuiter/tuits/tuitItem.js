@@ -30,7 +30,7 @@ const TuitItem = (
             <div className="row">
                 {/*left-part image*/}
                 <div className="col-1">
-                    <img className="rounded-circle" src={"/tuiter/pics/" + tuit.image} width="40px"/>
+                    <img className="rounded-circle" src={"/images/" + tuit.image} width="40px"/>
                 </div>
                 {/* right-part post */}
                 <div className="col-11">

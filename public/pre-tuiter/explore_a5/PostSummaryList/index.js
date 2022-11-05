@@ -5,7 +5,7 @@ const PostSummaryList = (post) => {
     return `<ul class="list-group">
        <ul class="list-group mb-5">
             <li class="list-group-item wd-card-img-top">
-                <img class="card-img-top" src="../../pics/starship.jpeg"/>
+                <img class="card-img-top" src="../../../images/starship.jpeg"/>
                 <div class="wd-card-img-top-title">SpaceX's Starship</div>
             </li>
           ${posts

@@ -34,7 +34,7 @@ const EditProfile = () => {
                 </Link>
                 <h5 className="p-3 mb-0 fw-bolder">Edit profile</h5>
                 <div className="position-relative">
-                    <img className="w-100" src={"/tuiter/pics/" + profile.bannerPicture} height='250px'
+                    <img className="w-100" src={"/images/" + profile.bannerPicture} height='250px'
                          style={{"filter": "brightness(50%)"}}/>
                     {/* upload new banner image button */}
                     <button
@@ -50,7 +50,7 @@ const EditProfile = () => {
                     <div className="position-absolute top-100 translate-middle" style={{'paddingLeft': '150px'}}>
                         <img className="rounded-circle"
                              style={{"width": "100px", "filter": "brightness(50%)"}}
-                             src={"/tuiter/pics/" + profile.profilePicture}/>
+                             src={"/images/" + profile.profilePicture}/>
                     </div>
                     {/* upload new avatar button */}
                     <button
