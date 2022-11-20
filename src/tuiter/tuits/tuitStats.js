@@ -52,9 +52,9 @@ const TuitStatus = ({tuit}) => {
 
             </div>
 
-            {/* upload */}
+            {/* share */}
             <div className="col">
-                <i className="fa-solid fa-arrow-up-from-bracket" style={{"color": "grey"}}/>
+                <i className="fa-solid fa-share-alt" style={{"color": "grey"}}/>
             </div>
         </div>
     );
